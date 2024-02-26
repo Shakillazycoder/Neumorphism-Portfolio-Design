@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEUMORPHISM</title>
+    <!-- daisyUI 4.7.2 CSS file + Tailwind CSS CDN script: -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body class="bg-[#24272C] min-h-screen px-4 py-10">
+    <main class="shadow-2xl mx-auto container rounded-3xl  bg-[#232732]">
+        <!-- nav section -->
+        <nav class="flex justify-between gap-10 lg:px-10 py-10">
+            <div class="navbar">
+                <div class="navbar-start gap-4">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost bg-white lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 rounded-box w-52 shadow-2xl">
+                        <li><a><button class="btn bg-[#24272C] text-white">Contact</button></a></li>
+                        <li><a><button class="btn bg-[#24272C] text-white">Resume</button></a></li>
+                        <li><a><button class="btn bg-[#24272C] text-white">About</button></a></li>
+                        <li><a><button class="btn bg-[#24272C] text-white">Certificate</button></a></li>
+                        <li><a><button class="btn bg-[#24272C] text-white">Projects</button></a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl text-white bg-[#24272C] border-white">Neumorphism</a>
+                </div>
+                <div class="navbar-center hidden lg:flex ">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a><button class="btn bg-[#24272C] text-white">Contact</button></a></li>
+                    <li><a><button class="btn bg-[#24272C] text-white">Resume</button></a></li>
+                    <li><a><button class="btn bg-[#24272C] text-white">About</button></a></li>
+                    <li><a><button class="btn bg-[#24272C] text-white">Certificate</button></a></li>
+                    <li><a><button class="btn bg-[#24272C] text-white">Projects</button></a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-[#24272C] text-white">Experience</a>
+                </div>
+              </div>
+        </nav>
+        <!-- banner section -->
+        <section>
+            <div class="flex justify-center items-center pt-32 mb-5">
+                <img src="images/Frame 3762.png" alt="">
+            </div>
+            <div>
+                <div class="text-center text-white space-y-5">
+                    <h1 class="text-xl font-normal ">Hey</h1>
+                    <h1 class="text-4xl font-bold ">I’m Shakil Sarker</h1>
+                    <h1 class="text-2xl font-semibold ">Machine Learning <Span class="text-[#D32D20]">Engineer</Span>
+                    </h1>
+                    <p class="w-2/4 mx-auto">A highly motivated student studying Artificial Intelligence and Machine
+                        Learning. Actively seeking opportunities to apply my skills and knowledge to real-world projects
+                        and contribute to the advancement of the industry.</p>
+                </div>
+                <div class="flex justify-center gap-10 py-5">
+                    <div class="bg-neutral text-neutral-content rounded-full shadow-2xl">
+                        <button class="btn btn-ghost text-xl">Learn More</button>
+                    </div>
+                    <div class="bg-neutral text-neutral-content rounded-full shadow-2xl">
+                        <button class="btn btn-ghost text-xl">Contact me</button>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                </div>
+        </section>
+        <!-- about section -->
+        <section class="flex justify-center items-center py-32">
+            <div class="flex flex-col lg:flex-row justify-center items-center mx-auto gap-10">
+                <div>
+                    <img class="shadow-2xl shadow-indigo-900 border-4 border-none rounded-3xl h-96"
+                        src="images/image-removebg-preview (31) 1.png" alt="" srcset="">
+                </div>
+                <div class="text-white max-w-xl space-y-5">
+                    <h1 class="text-4xl font-semibold">About me </h1>
+                    <p>I am actively seeking opportunities to apply my acquired skills and knowledge to real-world
+                        projects. My educational background has equipped me with a solid foundation in AI and ML
+                        algorithms, data analysis, and programming languages such as Python. Additionally, I have gained
+                        practical experience through hands-on projects, both independently and collaboratively.</p>
+                </div>
+            </div>
+        </section>
+        <!-- projects section -->
+        <section>
+            <div class="flex flex-col w-3/4 justify-center items-center mx-auto mb-10">
+                <div class="divider divider-secondary rounded-3xl"><span
+                        class="text-white text-4xl font-semibold">Projects</span></div>
+            </div>
+            <!-- skill section -->
+            <div
+                class="flex flex-col lg:flex-row justify-between items-center mx-auto gap-10 max-w-5xl py-5 mb-10 shadow-inner px-10 rounded-full shadow-indigo-900">
+                <div class="bg-neutral text-neutral-content rounded-full shadow-2xl">
+                    <button class="btn btn-primary rounded-full text-xl">Python</button>
+                </div>
+                <div class="bg-neutral text-neutral-content rounded-full shadow-2xl">
+                    <button class="btn btn-ghost text-xl">Machine Learning</button>
+                </div>
+                <div class="bg-neutral text-neutral-content rounded-full shadow-2xl">
+                    <button class="btn btn-ghost text-xl">NLP</button>
+                </div>
+            </div>
+            <!-- card section -->
+            <div class="flex flex-col lg:flex-row justify-between items-center max-w-5xl mx-auto py-10 space-y-5">
+                <div class="space-y-10">
+                    <img class="shadow-2xl shadow-indigo-900 rounded-full" src="images/Rectangle 62 (2).png" alt=""
+                        srcset="">
+                    <img class="shadow-2xl shadow-indigo-900 rounded-full" src="images/Rectangle 62 (1).png" alt=""
+                        srcset="">
+                    <img class="shadow-2xl shadow-indigo-900 rounded-full" src="images/Rectangle 62.png" alt=""
+                        srcset="">
+                </div>
+                <div class="card w-96 bg-[#232732] shadow-xl shadow-indigo-900">
+                    <figure class="px-10 rounded-2xl">
+                        <img src="images/Rectangle 65.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center text-white">
+                        <h2 class="card-title">Content Analyzer</h2>
+                        <p> A robust tool designed for content creators, bloggers, and writers</p>
+                        <div class="card-actions">
+                            <img src="images/Vector.svg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section>
+            <div class="flex flex-col w-3/4 justify-center items-center mx-auto mb-10">
+                <div class="divider divider-secondary rounded-3xl"><span
+                        class="text-white text-4xl font-semibold">Skills</span></div>
+
+                <div class="pt-20">
+                    <div class="bg-neutral text-neutral-content rounded-full shadow-2xl">
+                        <button class="btn btn-primary rounded-full text-xl">Languages</button>
+                    </div>
+                </div>
+                <div class="py-40">
+                    <img class="relative" src="images/Rectangle 75.png" alt="">
+                    <div class="flex justify-around transform absolute -translate-y-5 lg:-translate-y-40 left-1 right-1 lg:left-5 lg:right-5">
+                        <a class="btn btn-circle">❮</a>
+                        <a class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- certifications -->
+        <section>
+            <div class="flex flex-col w-3/4 justify-center items-center mx-auto mb-10">
+                <div class="divider divider-secondary rounded-3xl"><span
+                        class="text-white text-4xl font-semibold">Certifications</span></div>
+            </div>
+            <div class="lg:py-40 flex flex-col lg:flex-row justify-center items-center">
+                <img src="images/Rectangle 57.png" alt="" srcset="">
+                <img src="images/Rectangle 56.png" alt="" srcset="">
+                <img src="images/Rectangle 58.png" alt="" srcset="">
+            </div>
+        </section>
+        <!-- Experience -->
+        <section>
+            <div class="flex flex-col w-3/4 justify-center items-center mx-auto mb-10">
+                <div class="divider divider-secondary rounded-3xl"><span
+                        class="text-white text-4xl font-semibold">Experience</span></div>
+                <div class="flex gap-20">
+                    <div class="pt-20">
+                        <div class="bg-neutral text-neutral-content rounded-full shadow-2xl">
+                            <button class="btn btn-primary rounded-full text-xl">Experience</button>
+                        </div>
+                    </div>
+                    <div class="pt-20">
+                        <div class="bg-neutral text-neutral-content rounded-full shadow-2xl">
+                            <button class="btn btn-ghost rounded-full text-xl">Education</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content Writer -->
+        <section>
+            <div class="flex flex-col lg:flex-row justify-between items-center w-3/4 mx-auto p-20">
+                <!-- Content Writer section 1 -->
+                <div class="card w-96 bg-neutral text-neutral-content shadow-2xl">
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Technical Content Writer</h2>
+                        <p>GeeksforGeeks | 11-2023 – 02-2024</p>
+                        <p>As a content creator, I've authored and published numerous articles on technical topics like Power BI, Python, Data Science, and Machine Learning. My focus is on simplifying complex concepts, ensuring accessibility for all audiences. Each article is carefully crafted to translate intricate jargon into easily understandable terms, fostering a deep understanding. I stay current with the latest developments in these fields, delivering up-to-date content that empowers readers to navigate and excel in the ever-evolving landscape of technology.</p>
+                    </div>
+                </div>
+                <!-- divider -->
+                <div class="flex lg:flex-col gap-48 p-10">
+                    <div class="divider lg:divider-horizontal w-20"><img class="w-20 bg-slate-500 p-2 rounded-full"
+                            src="images/image 1.png" alt="" srcset=""></div>
+                    <div class="divider lg:divider-horizontal w-20"><img class="w-20 bg-slate-500 p-2 rounded-full"
+                            src="images/image 1.png" alt="" srcset=""></div>
+                </div>
+                <!-- Content Writer section 2 -->
+                <div class="card w-96 bg-neutral text-neutral-content shadow-2xl">
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Technical Content Writer</h2>
+                        <p>GeeksforGeeks | 11-2023 – 02-2024</p>
+                        <p>As a content creator, I've authored and published numerous articles on technical topics like Power BI, Python, Data Science, and Machine Learning. My focus is on simplifying complex concepts, ensuring accessibility for all audiences. Each article is carefully crafted to translate intricate jargon into easily understandable terms, fostering a deep understanding. I stay current with the latest developments in these fields, delivering up-to-date content that empowers readers to navigate and excel in the ever-evolving landscape of technology.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact me -->
+        <section>
+            <div class="flex flex-col w-3/4 justify-center items-center mx-auto mb-10">
+                <div class="divider divider-accent rounded-3xl"><span
+                        class="text-white text-4xl font-semibold">Contact Me</span></div>
+            </div>
+            <!-- contact section -->
+            <div class="flex flex-col lg:flex-row justify-center items-center mx-auto gap-10 py-40">
+                <div>
+                    <img class="shadow-2xl shadow-indigo-900 border-4 border-none rounded-3xl h-96"
+                        src="images/image-removebg-preview (31) 1.png" alt="" srcset="">
+                </div>
+                <!-- input file -->
+                <div class="space-y-5">
+                    <label class="input input-bordered flex items-center gap-2">
+                        Name
+                        <input type="text" class="grow" placeholder="Name*" />
+                      </label>
+                      <label class="input input-bordered flex items-center gap-2">
+                        Email
+                        <input type="text" class="grow" placeholder="Email ID*" />
+                      </label>
+                      <label class="form-control">
+                        <div class="label">
+                          <span class="label-text">Your bio</span>
+                          <span class="label-text-alt">Alt label</span>
+                        </div>
+                        <textarea class="textarea textarea-bordered h-24" placeholder="Message*"></textarea>
+                        <div class="label">
+                          <span class="label-text-alt">Your bio</span>
+                          <span class="label-text-alt">Alt label</span>
+                        </div>
+                      </label>
+                      <button class="btn btn-secondary w-full">Submit</button>
+                </div>
+            </div>
+                </section>
+        </section>
+</body>
+
+</html>
